@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,yCAAyC;EACrC,OAAQ;IACJ,gBAAgB,EAAE,KAAK;ACF/B,yCAAyC;EACrC,OAAQ;IACJ,gBAAgB,EAAE,GAAG;ACF7B,yCAAyC;EACrC,OAAQ;IACJ,gBAAgB,EAAE,MAAM",
+"sources": ["../sass/_laptop.scss","../sass/_tablet.scss","../sass/_movil.scss"],
+"names": [],
+"file": "breakpoints.css"
+}

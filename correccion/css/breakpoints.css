@@ -1,0 +1,11 @@
+@media only screen and (max-width: 992px) {
+  .purple {
+    background-color: green; } }
+@media only screen and (max-width: 768px) {
+  .purple {
+    background-color: red; } }
+@media only screen and (max-width: 576px) {
+  .purple {
+    background-color: yellow; } }
+
+/*# sourceMappingURL=breakpoints.css.map */
