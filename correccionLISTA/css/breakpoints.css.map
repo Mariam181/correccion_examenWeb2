@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,yCAAyC;EACrC,KAAM;IACF,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,CAAC;IACT,KAAK,EAAE,IAAI;;EAGf,QAAS;IACL,KAAK,EAAE,IAAI;;EAGf,UAAW;IACP,OAAO,EAAE,CAAC;;EAGd,aAAc;IACV,MAAM,EAAE,CAAC;IACT,KAAK,EAAE,GAAG;;EAGd,OAAQ;IACJ,WAAW,EAAE,IAAI;;EAGrB,cAAe;IACX,WAAW,EAAE,IAAI;ACzBzB,yCAAyC;EACrC,cAAe;IACX,WAAW,EAAE,IAAI;ACFzB,yCAAyC;EACrC,OAAQ;IACJ,gBAAgB,EAAE,MAAM",
+"sources": ["../sass/_laptop.scss","../sass/_tablet.scss","../sass/_movil.scss"],
+"names": [],
+"file": "breakpoints.css"
+}

@@ -1,0 +1,29 @@
+@media only screen and (max-width: 992px) {
+  .menu {
+    float: none;
+    margin: 0;
+    width: 100%; }
+
+  .divLogo {
+    float: none; }
+
+  .colums ul {
+    padding: 0; }
+
+  .colums ul li {
+    margin: 0;
+    width: 38%; }
+
+  .c + .d {
+    padding-top: 80px; }
+
+  .links li + li {
+    margin-left: 20px; } }
+@media only screen and (max-width: 768px) {
+  .links li + li {
+    margin-left: 20px; } }
+@media only screen and (max-width: 576px) {
+  .purple {
+    background-color: yellow; } }
+
+/*# sourceMappingURL=breakpoints.css.map */

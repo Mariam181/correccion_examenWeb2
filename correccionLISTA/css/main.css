@@ -7,13 +7,18 @@
   width: 80%;
   margin: 0 auto; }
 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
 /*PURPLE*/
 .purple {
   background-color: #87509c; }
 
 .menu ul li {
   list-style: none;
-  display: inline;
+  float: left;
   text-transform: uppercase; }
 
 .menu li + li {
@@ -24,10 +29,9 @@
   font-size: 16px; }
 
 .menu {
-  float: right;
-  margin-top: 56px;
-  margin-right: 22px;
-  width: 32%; }
+  float: left;
+  padding-top: 57px;
+  width: 60%; }
 
 .linkActive {
   padding: 12px 16px;
@@ -35,20 +39,23 @@
   border-radius: 5px; }
 
 .logo {
-  margin-left: 40px;
-  margin-top: 56px; }
+  margin-left: 40px; }
+
+.divLogo {
+  float: left;
+  width: 40%;
+  padding-top: 57px; }
 
 .texto1 {
-  width: 80%;
-  height: 96px;
-  margin: 0 auto; }
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  padding-top: 143px; }
 
 .texto1 p {
   font-size: 42.16px;
   font-weight: bold;
-  text-align: center;
-  margin-top: 140px;
-  margin-bottom: 52px; }
+  margin: 0; }
 
 .boton {
   text-transform: uppercase;
@@ -56,8 +63,12 @@
   background-color: #eb7d4b;
   padding: 26px 85px;
   border: 0;
-  margin: 0 auto;
-  margin-top: 150px; }
+  margin: 0 auto; }
+
+.btn {
+  text-align: center;
+  padding-bottom: 145px;
+  padding-top: 54px; }
 
 /*END PURPLE*/
 /*AQUA*/
@@ -82,20 +93,25 @@
 
 .texto2 p {
   text-align: center;
-  margin-bottom: 77px;
+  margin-bottom: 0;
   margin-top: 44px; }
 
 .colums ul {
   list-style: none;
-  margin: 0; }
+  margin: 0;
+  text-align: center; }
+
+.colums ul li img {
+  width: 100%; }
 
 .colums ul li {
   width: 20%;
   display: inline-block;
-  margin: 0 35px; }
+  margin: 0 10px;
+  text-align: center; }
 
 .colums {
-  margin-top: 76px; }
+  padding-top: 76px; }
 
 .colums ul li h3 {
   margin-top: 54px;
@@ -103,11 +119,10 @@
   text-align: center;
   font-size: 24px; }
 
-.colums ul li p {
-  text-align: center; }
-
 .a p {
-  margin: 0 41px; }
+  margin: 0 41px;
+  width: 80%;
+  margin-right: 0; }
 
 .b p {
   margin: 0 45px; }
@@ -169,10 +184,16 @@ input:focus, textarea:focus {
   margin: 0 auto;
   margin-top: 30px;
   background-color: #30bae7;
-  border-radius: 5px; }
+  border-radius: 5px;
+  font-size: 18px;
+  border: none;
+  text-transform: uppercase; }
 
 .formulario {
   padding-bottom: 85px; }
+
+.enviar {
+  text-align: center; }
 
 /*END AZUL*/
 /*FOOTER*/
@@ -185,7 +206,7 @@ input:focus, textarea:focus {
 
 .links li a {
   text-decoration: none;
-  font-size: 13px; }
+  font-size: 24px; }
 
 .links {
   padding: 0px;
@@ -193,18 +214,44 @@ input:focus, textarea:focus {
 
 .links li {
   display: inline;
-  text-align: center;
-  font-size: 24px; }
+  text-align: center; }
 
 .links li + li {
   margin-left: 65px; }
 
-.links a {
-  font-weight: bold;
-  text-transform: uppercase; }
-
 .redes {
   margin: 0 auto;
-  padding-top: 70px; }
+  text-align: center;
+  padding-top: 47px;
+  padding-bottom: 32px; }
+
+/*******************************************/
+@media only screen and (max-width: 992px) {
+  .menu {
+    float: none;
+    margin: 0;
+    width: 100%; }
+
+  .divLogo {
+    float: none; }
+
+  .colums ul {
+    padding: 0; }
+
+  .colums ul li {
+    margin: 0;
+    width: 38%; }
+
+  .c + .d {
+    padding-top: 80px; }
+
+  .links li + li {
+    margin-left: 20px; } }
+@media only screen and (max-width: 768px) {
+  .links li + li {
+    margin-left: 20px; } }
+@media only screen and (max-width: 576px) {
+  .purple {
+    background-color: yellow; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -9,6 +9,12 @@
     margin: 0 auto;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /*PURPLE*/
 .purple {
     background-color: #87509c;
@@ -16,7 +22,7 @@
 
 .menu ul li {
     list-style: none;
-    display: inline;
+    float: left;
     text-transform: uppercase;
 }
 
@@ -30,10 +36,9 @@
 }
 
 .menu {
-    float: right;
-    margin-top: 56px;
-    margin-right: 22px;
-    width: 32%;
+    float: left;
+    padding-top: 57px;
+    width: 60%;
 }
 
 .linkActive{
@@ -44,22 +49,26 @@
 
 .logo {
     margin-left: 40px;
-    margin-top: 56px;
+    
+}
+
+.divLogo {
+    float: left;
+    width: 40%;
+    padding-top: 57px;
 }
 
 .texto1 {
-    width: 80%;
-    height: 96px;
-    margin: 0 auto;
-
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding-top: 143px;
 }
 
 .texto1 p {
     font-size: 42.16px;
     font-weight: bold;
-    text-align: center;
-    margin-top: 140px;
-    margin-bottom: 52px;
+    margin: 0;
 }
 
 .boton {
@@ -69,7 +78,12 @@
     padding: 26px 85px;
     border: 0;
     margin: 0 auto;
-    margin-top: 150px;
+}
+
+.btn {
+    text-align: center;
+    padding-bottom: 145px;
+    padding-top: 54px;
 }
 /*END PURPLE*/
 
@@ -99,22 +113,27 @@
 
 .texto2 p {
     text-align: center;
-    margin-bottom: 77px;
+    margin-bottom: 0;
     margin-top: 44px;
 }
 
 .colums ul {
     list-style: none;
     margin: 0;
+    text-align: center;
 }
 
+.colums ul li img {
+    width: 100%;
+}
 .colums ul li {
     width: 20%;
     display: inline-block;
-    margin: 0 35px;
+    margin: 0 10px;
+    text-align: center;
 }
 .colums {
-    margin-top: 76px;
+    padding-top: 76px;
 }
 
 .colums ul li h3 {
@@ -124,12 +143,11 @@
     font-size: 24px;
 }
 
-.colums ul li p {
-    text-align: center;
-}
 
 .a p {
     margin: 0 41px;
+    width: 80%;
+    margin-right: 0;
 }
 
 .b p {
@@ -205,10 +223,17 @@ input:focus, textarea:focus {
     margin-top: 30px;
     background-color: #30bae7;
     border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    text-transform: uppercase;
 }
 
 .formulario {
     padding-bottom: 85px;
+}
+
+.enviar {
+    text-align: center;
 }
 /*END AZUL*/
 
@@ -225,7 +250,7 @@ input:focus, textarea:focus {
 
 .links li a {
     text-decoration: none;
-    font-size: 13px;
+    font-size: 24px;
 }
 
 .links {
@@ -236,19 +261,21 @@ input:focus, textarea:focus {
 .links li {
     display: inline;
     text-align: center;
-    font-size: 24px;
 }
 
 .links li + li{
     margin-left: 65px;
 }
 
-.links a{
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
 .redes {
     margin: 0 auto;
-    padding-top: 70px;
+    text-align: center;
+    padding-top: 47px;
+    padding-bottom: 32px;
 }
+
+
+/*******************************************/
+@import 'laptop';
+@import 'tablet';
+@import 'movil';
